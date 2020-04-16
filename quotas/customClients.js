@@ -434,7 +434,7 @@ class EMClient extends BaseClient {
 
     counterWithNoFlexHandler(group) {
         group.isFlex = true;
-        group.isRawFlex = true;
+        group.isRawFlex = false;
         group.flexAmount = 5;
     }
 
